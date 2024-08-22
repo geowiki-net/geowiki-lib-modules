@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Code for initializing modules",
   "main": "src/initModules.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/geowiki-net/geowiki-lib-modules/issues"
   },
-  "homepage": "https://github.com/geowiki-net/geowiki-lib-modules#readme"
+  "homepage": "https://github.com/geowiki-net/geowiki-lib-modules#readme",
+  "dependencies": {
+    "async": "^3.2.6"
+  }
 }
