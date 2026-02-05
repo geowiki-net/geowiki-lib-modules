@@ -1,4 +1,4 @@
-import each from 'async/each'
+import { each } from 'async'
 
 function getModule (modules, id) {
   if (typeof id === 'string') {
@@ -108,4 +108,4 @@ function updateRequireModules (modules) {
   }
 }
 
-module.exports = initModules
+export default initModules
